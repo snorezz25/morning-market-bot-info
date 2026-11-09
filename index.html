@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Morning Market Bot is a personal, self-hosted Telegram briefing with market news, today's Google Calendar events and scheduled Google Tasks.">
+  <title>Morning Market Bot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">☀</span> Morning Market Bot</a>
+      <nav aria-label="Main navigation"><a href="privacy/">Privacy policy <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <p class="eyebrow">Personal · Self-hosted · Read-only Google access</p>
+        <h1>A clearer start<br>to the day.</h1>
+        <p class="hero-intro">Morning Market Bot brings market news and a personal agenda together in a private Telegram message.</p>
+        <p class="hero-detail">It runs on the operator's own computer or Raspberry Pi. This website explains the application and how it uses Google data; it does not collect credentials or connect accounts.</p>
+        <a class="text-link" href="privacy/">Read the privacy policy <span aria-hidden="true">→</span></a>
+      </section>
+      <section class="overview section-block" aria-labelledby="brief-heading">
+        <div><p class="eyebrow">The morning brief</p><h2 id="brief-heading">One message.<br>Three useful views.</h2></div>
+        <ol class="feature-list">
+          <li><span class="feature-number" aria-hidden="true">01</span><div><h3>Today's calendar</h3><p>Event titles and times from the calendars the operator selects, including all-day events. Canceled events and invitations the user declined are excluded.</p></div></li>
+          <li><span class="feature-number" aria-hidden="true">02</span><div><h3>Scheduled tasks</h3><p>Incomplete Google Tasks with a scheduled date, including future dates and past dates. The separate Google Tasks Deadline field and task times are not available through this connection.</p></div></li>
+          <li><span class="feature-number" aria-hidden="true">03</span><div><h3>Market context</h3><p>A concise public-news briefing covering market moves, relevant holdings news and upcoming catalysts. Calendar and task contents stay out of market research and AI prompts.</p></div></li>
+        </ol>
+      </section>
+      <section class="permission-note section-block" aria-labelledby="permission-heading">
+        <div><p class="eyebrow">Why Google access is requested</p><h2 id="permission-heading">Read the agenda.<br>Leave it in your control.</h2></div>
+        <div class="note-body"><p>The application requests read-only access to Google Calendar events and Google Tasks so it can add the requested agenda to the private Telegram brief.</p><p>It does not create, edit, complete or delete events or tasks. Google agenda data is read by the self-hosted worker, stored locally in a minimal snapshot and sent to the Telegram chat chosen by the operator.</p><p>Access is optional and can be revoked from the user's Google Account. Local delivery records and existing Telegram messages remain until the operator deletes them.</p><a class="text-link" href="privacy/">See access, storage and deletion details <span aria-hidden="true">→</span></a></div>
+      </section>
+      <aside class="support-note" aria-labelledby="support-heading"><h2 id="support-heading">Support &amp; operation</h2><p>This is a personal, self-hosted application, not a public account service. Contact the application operator using the support email displayed on the Google authorization screen.</p></aside>
+    </main>
+    <footer class="site-footer"><span>Morning Market Bot</span><a href="privacy/">Privacy policy</a></footer>
+  </div>
+</body>
+</html>
