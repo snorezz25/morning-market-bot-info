@@ -18,7 +18,7 @@
       <section class="hero">
         <p class="eyebrow">Personal · Self-hosted · Read-only Google access</p>
         <h1>A clearer start<br>to the day.</h1>
-        <p class="hero-intro">Morning Market Bot brings market news and a personal agenda together in a private Telegram message.</p>
+        <p class="hero-intro">Morning Market Bot brings market news and a personal agenda together in a private Telegram message, with optional finance questions and follow-up conversations.</p>
         <p class="hero-detail">It runs on the operator's own computer or Raspberry Pi. This website explains the application and how it uses Google data; it does not collect credentials or connect accounts.</p>
         <a class="text-link" href="privacy/">Read the privacy policy <span aria-hidden="true">→</span></a>
       </section>
@@ -29,6 +29,10 @@
           <li><span class="feature-number" aria-hidden="true">02</span><div><h3>Scheduled tasks</h3><p>Incomplete Google Tasks with a scheduled date, including future dates and past dates. The separate Google Tasks Deadline field and task times are not available through this connection.</p></div></li>
           <li><span class="feature-number" aria-hidden="true">03</span><div><h3>Market context</h3><p>A concise public-news briefing covering market moves, relevant holdings news and upcoming catalysts. Calendar and task contents stay out of market research and AI prompts.</p></div></li>
         </ol>
+      </section>
+      <section class="permission-note section-block" aria-labelledby="chat-heading">
+        <div><p class="eyebrow">Optional finance chat</p><h2 id="chat-heading">Ask a question.<br>Explore the possibilities.</h2></div>
+        <div class="note-body"><p>The private Telegram bot can research finance questions and compare market scenarios, catalysts and risks. Recent conversation context helps with follow-up questions; saved stock symbols can make answers more relevant.</p><p>Finance questions and a small recent conversation history are sent to OpenAI for research and answering. Google calendar and task records are excluded from this workflow. The chat does not place trades or provide an account balance view, and usage limits apply.</p><p>Use /help for commands, /sources for the last answer's references and /reset to clear conversation context. The scheduled morning brief remains a separate service.</p></div>
       </section>
       <section class="permission-note section-block" aria-labelledby="permission-heading">
         <div><p class="eyebrow">Why Google access is requested</p><h2 id="permission-heading">Read the agenda.<br>Leave it in your control.</h2></div>
